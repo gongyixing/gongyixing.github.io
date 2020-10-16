@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GONGYIXING | 公易行（北京）科技有限公司</title>
+    <description>Made by GONGYIXING.</description>
+    <link>/en/</link>
+    <atom:link href="/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 17 Oct 2020 01:21:20 +0800</pubDate>
+    <lastBuildDate>Sat, 17 Oct 2020 01:21:20 +0800</lastBuildDate>
+    
+      <item>
+        <title>Welcome!</title>
+        <description>&lt;p&gt;
+Hi everybody, be welcomed to the&amp;nbsp;&lt;a href=&quot;https://www.gongyixing.com/&quot;&gt;GONGYIXING&lt;/a&gt;&amp;nbsp;.
+&lt;br/&gt;The idea of this section is to post some insights of our work and share tips and data related to the projects we tackle.
+&lt;br/&gt;We will also keep it updated with info and news about &lt;a href=&quot;https://www.gongyixing.com/&quot;&gt;GONGYIXING&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+See you on the next post!
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jul 2020 11:57:00 +0800</pubDate>
+        <link>/en/insights/blog/welcome-en</link>
+        <guid isPermaLink="true">/en/insights/blog/welcome-en</guid>
+        
+        <category>notpadify</category>
+        
+        
+        <category>en</category>
+        
+        <category>insights</category>
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>
