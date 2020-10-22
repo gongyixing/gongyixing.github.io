@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="二维码" class="cls-1" d="M1543,48V40h8v8h-8Zm6-6h-4v4h4V42Zm-1,3h-2V43h2v2Zm4-6V31h8v8h-8Zm6-6h-4v4h4V33Zm-1,3h-2V34h2v2Zm-14,3V31h8v8h-8Zm6-6h-4v4h4V33Zm-1,3h-2V34h2v2Zm4,4h4v6h-4V40Zm4,2h4v6h-4V42Zm2-2h2v2h-2V40Zm-6,6h2v2h-2V46Z" transform="translate(-1543 -31)"/>
+</svg>
