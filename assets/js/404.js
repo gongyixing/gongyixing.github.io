@@ -11,15 +11,10 @@ var p1 = p.toLowerCase();
 
 var isBrandPage = false;
 
-if(p1.startsWith('/playment/')){
+if(p1.startsWith('/brands/')){
   isBrandPage = true;
-  if(p1.startsWith('/playment/zh/'))
-  {
-    currentlang = 'zh';
-  }
-}
-else if(p1.startsWith('/iaromatherapy/')) {
-  isBrandPage = true;
+  if(p1.indexOf('/zh/')>-1 || p1.endsWith('/zh')) currentlang = 'zh';
+  if(p1.indexOf('/tc/')>-1 || p1.endsWith('/tc')) currentlang = 'tc';
 }
 
 if(isBrandPage) {
@@ -55,7 +50,16 @@ else {
 
 }
 
-// console.log(file404);
+if(document.location.pathname.startsWith("/assets/images/")) {
+  let fileName = document.location.pathname.toLowerCase().replace(/.*(\/|\\)/, "");
+  if(fileName.endsWith('.jpg') 
+    || fileName.endsWith('.png')
+    || fileName.endsWith('.gif')
+    || fileName.endsWith('.svg')
+    ) {
+    file404 = '/assets/images/404.svg';
+  }
+}
 
 location.replace(file404);
 
